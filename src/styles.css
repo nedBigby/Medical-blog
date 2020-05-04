@@ -1,0 +1,124 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { 
+    height: 100%; 
+    background-color: #f5f5f5;
+}
+
+body { 
+    margin: 0; 
+    font-size: 12px !important;
+    font-family: "Roboto", "Helvetica Neue", sans-serif ;
+}
+
+    a:link {
+        text-decoration: inherit;
+        color: inherit;
+    }
+    
+    a:visited {
+        text-decoration: inherit;
+        color: inherit;
+    }
+
+@font-face{
+    font-family: "Kollektif";
+    src: url("../res/fonts/Kollektif.ttf");
+}
+
+@font-face{
+    font-family: "Granaina";
+    src: url("../res/fonts/Granaina-Limpia-Font.ttf");
+}
+
+@font-face{
+    font-family: "Lora";
+    src: url("../res/fonts/Lora-VariableFont_wght.ttf");
+}
+
+@font-face{
+    font-family: "Roboto";
+    src: url("../res/fonts/Roboto-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Roboto Bold";
+    src: url("../res/fonts/Roboto-Bold.ttf");
+}
+
+@font-face{
+    font-family: "Font Awesome Brands";
+    src: url("../res/fonts/fa-brands-regular-400.otf");
+}
+
+@font-face{
+    font-family: "Font Awesome";
+    src: url("../res/fonts/fa-regular-400.otf");
+}
+
+
+/*Font sizes*/
+
+.lora-black{
+    font-family: "Lora Black" !important;
+}
+
+.lora-bold{
+    font-family: "Lora Bold" !important;
+}
+
+.lora{
+    font-family: "Lora" !important;
+}
+
+.granaina{
+    font-family: "Granaina" !important;
+}
+
+.kollektif{
+    font-family: "Kollektif" !important;
+}
+
+.ultra{
+    font-size: 116px !important;
+}
+
+.big{
+    font-size: 24px !important;
+}
+
+.small{
+    font-size: 9px;
+}
+
+.white{
+    color: #f5f5f5;
+}
+
+.black{
+    color: #000000;
+}
+
+.center{
+    text-align: center;
+}
+
+.plain-text{
+    font-family:"Roboto";
+    font-size: 12px;
+}
+
+.btn-text{
+    font-family:"Roboto Bold" !important;
+    color: #f5f5f5  !important;
+    font-size: 12px !important;
+}
+
+/*Paleta de colores*/
+
+/*
+#6667E7
+#5E53E3
+#30DAD8
+#0086C3
+*/
