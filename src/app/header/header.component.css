@@ -1,0 +1,12 @@
+mat-toolbar{
+    width: 100%;
+}
+
+div{
+    margin: auto;
+    margin-top: 70px;
+}
+
+mat-toolbar span{
+    margin: 35px;
+}
