@@ -2,11 +2,9 @@ span{
     font-family: "Hello" !important;
     margin: auto;
     text-align: center;
-    margin-bottom: 35px;
 }
 
 .header{
-    padding-top: 80px;
     text-align: center;
 }
 
@@ -20,6 +18,9 @@ span{
 
 .header-bg{
     background: rgb(158,29,108);
-    background: linear-gradient(0deg, rgba(158,29,108,0.8362068965517242) 0%, rgba(227,45,156,0.6939655172413793) 28%, rgba(214,219,244,0.7155172413793103) 74%, rgba(225,245,249,0.8469827586206897) 99%);
-    height: 100%;
+    background: linear-gradient(0deg, rgba(158,29,108,0.5908045977011493) 0%,
+     rgba(227,45,156,0.5195402298850575) 28%,
+      rgba(214,219,244,0.8298850574712644) 67%,
+       rgba(225,245,249,0.9218390804597701) 99%);
+    padding-top: 5%;
 }
