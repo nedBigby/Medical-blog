@@ -13,12 +13,14 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatChipsModule} from '@angular/material/chips';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { LandingModule } from './landing/landing.module';
 
 import { BlogComponent } from './blog/blog.component';
 import { EspecialidadesComponent } from './especialidades/especialidades.component';
 import { ConsultaComponent } from './consulta/consulta.component';
 import { FooterComponent } from './footer/footer.component';
-import { LandingModule } from './landing/landing.module';
+
 
 @NgModule({
   declarations: [
@@ -26,12 +28,15 @@ import { LandingModule } from './landing/landing.module';
     BlogComponent,
     EspecialidadesComponent,
     ConsultaComponent,
-    FooterComponent],
+    FooterComponent
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    LandingModule
+    LandingModule,
+    MatToolbarModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
