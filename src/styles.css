@@ -43,7 +43,8 @@
 /* You can add global styles to this file, and also import other style files */
 
 html{
-    background-color: #f5f5f5;
+    background-color: #ffffff;
+    margin: 30px;
 }
 
 *{
@@ -90,11 +91,11 @@ a:visited {
 }
 
 .huge{
-    font-size: 64px!important;
+    font-size: 46px!important;
 }
 
 .big{
-    font-size: 32px!important;
+    font-size: 24px!important;
 }
 
 .normal{

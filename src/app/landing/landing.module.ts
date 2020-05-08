@@ -6,6 +6,8 @@ import { LandingEspComponent } from './landing-esp/landing-esp.component';
 import { HeaderComponent } from '../header/header.component';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
@@ -16,8 +18,11 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     ],
   imports: [
     CommonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatCardModule,
+    MatGridListModule,
+    MatGridListModule
   ],
-  exports:[LandingComponent,ContactoComponent,LandingEspComponent,HeaderComponent]
+  exports:[LandingComponent,ContactoComponent,LandingEspComponent,HeaderComponent,MatCardModule,MatGridListModule]
 })
 export class LandingModule { }

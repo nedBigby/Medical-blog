@@ -1,8 +1,12 @@
-.example-card {
-    max-width: 200px;
-  }
-  
-  .example-header-image {
-    background-image: url("../../../assets/a4ac0fe02f324aa1597d405ac475837a.jpg");
-    background-size: cover;
-  }
+
+mat-card{
+    max-width: 80%;
+}
+
+mat-grid-list{
+    margin: -40px auto;
+}
+
+.especialidades{
+    text-align: center;
+}
