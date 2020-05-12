@@ -4,21 +4,6 @@
 }
 
 @font-face{
-    font-family: "Montserrat Bold";
-    src: url("../res/fonts/Montserrat-Bold.ttf");
-}
-
-@font-face{
-    font-family: "Montserrat SemiBold";
-    src: url("../res/fonts/Montserrat-SemiBold.ttf");
-}
-
-@font-face{
-    font-family: "Montserrat Regular";
-    src: url("../res/fonts/Montserrat-Regular.ttf");
-}
-
-@font-face{
     font-family: "Cocogoose";
     src: url("../res/fonts/Cocogoose Pro-trial.ttf");
 }
@@ -38,25 +23,28 @@
     src: url("../res/fonts/Hello.ttf");
 }
 
-
-
 /* You can add global styles to this file, and also import other style files */
 
 html{
     background-color: #ffffff;
-    margin: 30px;
+    margin: 2em 0;
+}
+
+@media screen and (min-width:500px){
+    html{
+        margin: 4em 0;
+    }
 }
 
 *{
     margin: 0;
     padding:0;
-    box-sizing: border-box;
     color: #000000;
 }
 
 body { 
-    font-family: "Montserrat Regular"; 
-    font-size: 12px;
+    font-family: "Montserrat",sans-serif; 
+    font-size: .8em;
 }
 
 a:link {
@@ -70,36 +58,28 @@ a:visited {
 }
 /*Font sizes*/
 
-.cocogoose-italic{
-    font-family: "Cocogoose Italic" !important;
-}
-
 .title{
     font-family: "Cocogoose" !important;
 }
 
 .header{
-    font-family: "Montserrat Bold"!important;
-}
-
-.bold{
     font-family: "Montserrat SemiBold"!important;
 }
 
 .text{
-    font-family: "Montserrat Regular"!important;
-}
-
-.huge{
-    font-size: 46px!important;
+    font-family: "Roboto", sans-serif!important;
 }
 
 .big{
-    font-size: 24px!important;
+    font-size: 40px!important;
+}
+
+.header{
+    font-size: 1.6em!important;
 }
 
 .normal{
-    font-size:12px!important;
+    font-size: .8em!important;
 }
 
 .white{

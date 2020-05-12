@@ -1,41 +1,15 @@
-<div class="especialidades">
-	<span class="big pink title">Especialidades</span>
+<div class="wrapper">
+	<div class="especialidades">
+		<span class=" pink">Especialidades</span>
+	</div>
+	<div class="container-block">
+		<div class="card-wrapper" *ngFor="let card of getCards()">
+			<span class="header dark-pink card-title">{{card.title}}</span>
+			<mat-card class="mat-elevation-z6">
+				<img mat-card-image src="{{card.img}}" >
+				<mat-card-content class="normal white bold">{{card.content}}</mat-card-content>
+			</mat-card>
+		</div>		
+	</div>
+
 </div>
-<mat-grid-list cols="8" rowHeight="250px" >
-	<mat-grid-tile [colspan]="2" [rowspan]="3">
-		<mat-card>
-			<img mat-card-image src="../../../assets/c700x420.jpg" >
-			<mat-card-content  class="normal text">
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-						been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gall
-			</mat-card-content>
-		</mat-card>
-	</mat-grid-tile>
-	<mat-grid-tile [colspan]="2" [rowspan]="3">
-		<mat-card class="mat-elevation-z10">
-			<img  mat-card-image src="../../../assets/a4ac0fe02f324aa1597d405ac475837a.jpg">
-			<mat-card-content class="normal text" >
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-					been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gall
-			</mat-card-content>
-		</mat-card>
-	</mat-grid-tile>
-	<mat-grid-tile [colspan]="2" [rowspan]="3">
-		<mat-card>
-				<img mat-card-image src="../../../assets/hilos-de-la-dna-simples-y-hélice-dual-16944508.jpg" >
-				<mat-card-content class="normal text">
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-					been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gall
-				</mat-card-content>
-		</mat-card>
-	</mat-grid-tile>
-	<mat-grid-tile [colspan]="2" [rowspan]="3">
-		<mat-card>
-		<img mat-card-image src="../../../assets/a4ac0fe02f324aa1597d405ac475837a.jpg">
-			<mat-card-content class="normal text">
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-				been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gall
-			</mat-card-content>
-		</mat-card>
-	</mat-grid-tile>
-</mat-grid-list>

@@ -1,25 +1,55 @@
-span{
-    font-family: "Hello" !important;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.image{
-    background: url("../../assets/la-innovadora-terapia-con-celulas-madre-made-in-spain-que-ayudara-a-75-000-espanoles.jpg") center no-repeat;
-    background-size: 1200px;
-    width: 100%;
-    height: 70%;
-    padding: 0;
-    margin-top: -30px;
-}
-
 .top-container{
-    height: 100vh;
+    height: 35vh;
+    max-height: 400px;
+    margin-bottom: 1em;
 }
 
 .header{
     text-align: center;
-    height: 20%;
-    padding-top: 10px;
+}
+
+span{
+    font-family: "Hello" !important;
+    font-size: 1.8em!important;
+}
+
+.image{
+    background: url("../../assets/la-innovadora-terapia-con-celulas-madre-made-in-spain-que-ayudara-a-75-000-espanoles.jpg") center no-repeat;
+    background-size: 100vw;
+    width: 100%;
+    height: 52%;
+    padding: 0;
+}
+
+@media screen and (min-width:321px){
+    span{
+        font-size: 2em!important;
+    }
+}
+
+@media screen and (min-width:500px){
+    span{
+        font-size: 3em!important;
+    }
+    .image{
+        height: 70%;
+    }
+
+    .top-container{
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width:700px){
+    span{
+        font-size: 4em!important;
+    }
+
+    .image{
+        height: 70%;
+    }
+
+    .top-container{
+        height: 60vh;
+    }
 }
