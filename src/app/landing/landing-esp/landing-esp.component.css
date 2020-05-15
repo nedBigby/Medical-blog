@@ -9,7 +9,7 @@
 
 mat-card{
     max-width: 80%;
-    background-color: #E32D91;
+    background-color: #ffffff;
     margin: auto;
     margin-top: 1em;
     border-radius: 0; 
@@ -29,18 +29,25 @@ img{
  
 mat-card-content{
     line-height: 2em!important;
+    font-family: "Metrophobic",sans-serif;
+    color: rgb(253, 194, 227);
 }
 
-.especialidades{
+.especialidades-wrapper{
     text-align: center;
-    font-family: "Cocogoose"!important;
+    margin-bottom:100px;
+}
+
+.especialidades {
+    font-family: "Cocogoose";
     margin-bottom: 1.4em;
     text-transform: uppercase;
-    font-size: 2.3em!important;
+    font-size: 2em;
 }
-
 .card-title{
-    font-family: "Montserrat Black","Cocogoose" !important;
+    font-family: "Lekton",serif !important;
+    color: #E32D91;
+    opacity: .7;
 }
 
 @media screen and (min-width:375px){
@@ -62,4 +69,5 @@ mat-card-content{
     mat-card{
         max-width: 20em;
     }
+
 }

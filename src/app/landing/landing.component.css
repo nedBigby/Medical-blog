@@ -1,7 +1,6 @@
 .top-container{
-    height: 35vh;
-    max-height: 400px;
-    margin-bottom: 1em;
+    height: 400px;
+    max-height: 600px;
 }
 
 .header{
@@ -9,27 +8,59 @@
 }
 
 span{
-    font-family: "Hello" !important;
-    font-size: 1.8em!important;
+    font-family: "Hello" ;
+    font-size: 1.8em;
 }
 
 .image{
-    background: url("../../assets/la-innovadora-terapia-con-celulas-madre-made-in-spain-que-ayudara-a-75-000-espanoles.jpg") center no-repeat;
+    background: linear-gradient(to right,rgb(0, 0, 0,0.7),rgb(255, 255, 255,0.3)),url("../../assets/la-innovadora-terapia-con-celulas-madre-made-in-spain-que-ayudara-a-75-000-espanoles.jpg") center no-repeat;
     background-size: 100vw;
+    object-fit: cover;
     width: 100%;
-    height: 52%;
+    height: 59%;
     padding: 0;
+    clip-path: polygon(0 25%,100% 0,100% 75%,0 100% );
+}
+
+.text-box{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    overflow: auto;
+}
+
+.quote{
+    color: #ffffff;
+    font-family: "Cocogoose";    
+}
+
+.main-header{
+    display: block;
+    font-size: 1em;
+    color: #ffffff;
+    font-family: "Cocogoose";
+    font-weight: 700;
+}
+
+.sub-header{
+    display: block;
+    font-size: .6em;
+    color: #ffffff;
+    font-family: "Lekton";
 }
 
 @media screen and (min-width:321px){
     span{
-        font-size: 2em!important;
+        font-size: 2em;
     }
 }
 
 @media screen and (min-width:500px){
     span{
-        font-size: 3em!important;
+        font-size: 3em;
     }
     .image{
         height: 70%;
@@ -37,19 +68,33 @@ span{
 
     .top-container{
         height: 60vh;
+    }
+
+    .main-header{
+        font-family: "Metrophobic";
     }
 }
 
 @media screen and (min-width:700px){
-    span{
-        font-size: 4em!important;
+    .text-box{
+        top: 50%;
+
     }
 
-    .image{
-        height: 70%;
+    .main-header{
+        font-size: 2em;
+        letter-spacing: 5px;
+    }
+
+    .sub-header{
+        letter-spacing: 2px;
+    }
+
+    span{
+        font-size: 4em;
     }
 
     .top-container{
-        height: 60vh;
+        height: 80vh;
     }
 }

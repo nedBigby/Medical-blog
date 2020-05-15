@@ -1,13 +1,14 @@
 <div class="wrapper">
-	<div class="especialidades">
-		<span class=" pink">Especialidades</span>
+	<div class="especialidades-wrapper">
+		<span class="especialidades pink">Especialidades</span>
+		<p class="normal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere similique iure ipsa, praesentium nostrum,</p>		
 	</div>
 	<div class="container-block">
 		<div class="card-wrapper" *ngFor="let card of getCards()">
-			<span class="header dark-pink card-title">{{card.title}}</span>
+			<span class="header card-title">{{card.title}}</span>
 			<mat-card class="mat-elevation-z6">
 				<img mat-card-image src="{{card.img}}" >
-				<mat-card-content class="normal white bold">{{card.content}}</mat-card-content>
+				<mat-card-content class="normal bold"><strong>{{card.content}}</strong></mat-card-content>
 			</mat-card>
 		</div>		
 	</div>

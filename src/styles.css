@@ -1,27 +1,23 @@
 @font-face{
-    font-family: "Cocogoose Italic";
-    src: url("../res/fonts/Cocogoose Pro Italic-trial.ttf");
-}
-
-@font-face{
     font-family: "Cocogoose";
     src: url("../res/fonts/Cocogoose Pro-trial.ttf");
-}
-
-@font-face{
-    font-family: "Roboto";
-    src: url("../res/fonts/Roboto-Regular.ttf");
-}
-
-@font-face{
-    font-family: "Roboto Bold";
-    src: url("../res/fonts/Roboto-Bold.ttf");
 }
 
 @font-face{
     font-family: "Hello";
     src: url("../res/fonts/Hello.ttf");
 }
+
+@font-face{
+    font-family: "Metrophobic";
+    src: url("../res/fonts/Metrophobic-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Lekton";
+    src: url("../res/fonts/Lekton-Bold.ttf");
+}
+
 
 /* You can add global styles to this file, and also import other style files */
 
@@ -43,7 +39,7 @@ html{
 }
 
 body { 
-    font-family: "Montserrat",sans-serif; 
+    font-family: "Metrophobic",sans-serif !important; 
     font-size: .8em;
 }
 
@@ -58,17 +54,6 @@ a:visited {
 }
 /*Font sizes*/
 
-.title{
-    font-family: "Cocogoose" !important;
-}
-
-.header{
-    font-family: "Montserrat SemiBold"!important;
-}
-
-.text{
-    font-family: "Roboto", sans-serif!important;
-}
 
 .big{
     font-size: 40px!important;
