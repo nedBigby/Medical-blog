@@ -10,6 +10,28 @@
     margin: 0 0.6em;
 }
 
+a{
+    text-decoration: none;   
+}
+
+a:hover{
+    cursor: pointer;
+    color: #E32D91;
+    transition: ease-in 0.3s;
+    animation-name: hoverAnimation;
+    text-underline-position: below;
+}
+
+@keyframes hoverAnimation{
+    0%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0.1;
+    }
+}
+
 @media screen and (min-width:375px){
     .container{
         font-size: 0.6em!important;

@@ -15,13 +15,6 @@ mat-card{
     border-radius: 0; 
 }
 
-mat-grid-list{
-    margin: auto;
-    text-align: center;
-    margin-top: 2em;
-    max-width: 1200px;
-}
-
 img{
     object-fit: cover;
     height: 18em;
@@ -38,22 +31,10 @@ mat-card-content{
     margin-bottom:100px;
 }
 
-.especialidades {
-    font-family: "Cocogoose";
-    margin-bottom: 1.4em;
-    text-transform: uppercase;
-    font-size: 2em;
-}
 .card-title{
     font-family: "Lekton",serif !important;
     color: #E32D91;
     opacity: .7;
-}
-
-@media screen and (min-width:375px){
-    .especialidades{
-        font-size: 3em!important;
-    }
 }
 
 @media screen and (min-width:700px){
