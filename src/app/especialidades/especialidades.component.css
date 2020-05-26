@@ -1,0 +1,19 @@
+.top-container{
+    margin-top: -25px;
+    height: 400px;
+    max-height: 600px;
+    text-align: center;
+}
+
+.logo{
+    height: 120px;
+}
+
+@media screen and (min-width:500px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

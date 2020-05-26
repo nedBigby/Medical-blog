@@ -20,12 +20,12 @@ export class LandingEspComponent implements OnInit {
       content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gall"
     },
     {
-      title: "Nutrición",
+      title: "Genética",
       img: "../../../assets/hilos-de-la-dna-simples-y-hélice-dual-16944508.jpg",
       content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gall"
     },
     {
-      title: "Genética",
+      title: "Nutrición",
       img: "../../../assets/magnesio-770x550.png",
       content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gall"
     }

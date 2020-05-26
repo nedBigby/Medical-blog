@@ -9,17 +9,10 @@
 
 mat-card{
     max-width: 80%;
-    background-color: #E32D91;
+    background-color: #ffffff;
     margin: auto;
     margin-top: 1em;
     border-radius: 0; 
-}
-
-mat-grid-list{
-    margin: auto;
-    text-align: center;
-    margin-top: 2em;
-    max-width: 1200px;
 }
 
 img{
@@ -29,24 +22,19 @@ img{
  
 mat-card-content{
     line-height: 2em!important;
+    font-family: "Metrophobic",sans-serif;
+    color: rgb(253, 194, 227);
 }
 
-.especialidades{
+.especialidades-wrapper{
     text-align: center;
-    font-family: "Cocogoose"!important;
-    margin-bottom: 1.4em;
-    text-transform: uppercase;
-    font-size: 2.3em!important;
+    margin-bottom:100px;
 }
 
 .card-title{
-    font-family: "Montserrat Black","Cocogoose" !important;
-}
-
-@media screen and (min-width:375px){
-    .especialidades{
-        font-size: 3em!important;
-    }
+    font-family: "Lekton",serif !important;
+    color: #E32D91;
+    opacity: .7;
 }
 
 @media screen and (min-width:700px){
@@ -62,4 +50,5 @@ mat-card-content{
     mat-card{
         max-width: 20em;
     }
+
 }

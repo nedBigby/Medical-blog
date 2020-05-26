@@ -1,8 +1,8 @@
 .container{
     width: 100%;
     background: transparent;
-    font-family: "Montserrat" !important;
-    font-size: 0.5em!important;
+    font-family: "Montserrat";
+    font-size: 0.5em;
     margin: 1em 0;
 }
 
@@ -10,9 +10,38 @@
     margin: 0 0.6em;
 }
 
+a{
+    text-decoration: none;   
+}
+
+a:hover{
+    cursor: pointer;
+    color: #E32D91;
+    transition: ease-in 0.3s;
+    animation-name: hoverAnimation;
+    text-underline-position: below;
+}
+
+.selected{
+    border-bottom: solid #E32D91;
+    border-width: 2px;
+    border-color: hsl(327, 76%, 53%, 1);
+    padding: 5px;
+}
+
+@keyframes hoverAnimation{
+    0%{
+        opacity: 0.1;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
 @media screen and (min-width:375px){
-    .container{
-        font-size: 0.6em!important;
+    div.container{
+        font-size: 0.6em;
     }
 }
 
@@ -20,6 +49,7 @@
     .container span{
         margin: 0 0.9em;
     }
+
 }
 
 @media screen and (min-width:700px){
