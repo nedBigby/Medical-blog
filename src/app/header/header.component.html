@@ -1,7 +1,7 @@
 <div class="container">
-    <span><a (click)="goToLanding()" routerLink="landing" routerLinkActive="active">Home</a></span>
-    <span><a (click)="goToEspecialidades()" routerLink="especialidades" routerLinkActive="active">Especialidades</a></span>
-    <span><a (click)="goToConsulta()" routerLink="consulta" routerLinkActive="active">Consulta</a></span>
-    <span><a (click)="goToBlog()" routerLink="blog" routerLinkActive="active">Blog</a></span>
-    <span><a routerLink="contacto" routerLinkActive="active">Contacto</a></span>
+    <span><a [attr.class]="pageSelected == 'home' ? 'selected' : ''" (click)="goToLanding()" routerLink="landing" routerLinkActive="active">Home</a></span>
+    <span><a [attr.class]="pageSelected == 'especialidades' ? 'selected' : ''" (click)="goToEspecialidades()" routerLink="especialidades" routerLinkActive="active">Especialidades</a></span>
+    <span><a [attr.class]="pageSelected == 'consulta' ? 'selected' : ''" (click)="goToConsulta()" routerLink="consulta" routerLinkActive="active">Consulta</a></span>
+    <span><a [attr.class]="pageSelected == 'blog' ? 'selected' : ''" (click)="goToBlog()" routerLink="blog" routerLinkActive="active">Blog</a></span>
+    <span><a [attr.class]="pageSelected == 'contacto' ? 'selected' : ''" routerLink="contacto" routerLinkActive="active">Contacto</a></span>
 </div>
